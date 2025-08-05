@@ -58,7 +58,7 @@ Count Vectorizer: 32 GB+ RAM (not recommended)
 Clone the repository
 
 bash
-git clone [https://github.com/rbhatia46/Data-Science-Interview-Resources.git]
+git clone [https://github.com/RithikDatascientist/Book_recommendation_system.git]
 cd book-recommendation-system
 Create virtual environment
 
