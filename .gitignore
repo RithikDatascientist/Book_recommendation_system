@@ -1,1 +1,4 @@
 .ipynb_checkpoints
+books_complete.csv
+books_dict.pkl
+tfidf_matrix.pkl
