@@ -56,18 +56,19 @@ A sophisticated content-based book recommendation system that uses Natural Langu
 
 🛠️ Installation
     Clone the repository
-
-bash
+    
+```bash
     git clone [https://github.com/RithikDatascientist/Book_recommendation_system.git]
     cd book-recommendation-system
     Create virtual environment
-
-bash
+```
+    
+```bash
     python -m venv book_rec_env
     source book_rec_env/bin/activate  # On Windows: book_rec_env\Scripts\activate
     Install dependencies
-
-bash
+```
+```bash
     pip install -r requirements.txt
     📁 Project Structure
     text
@@ -80,7 +81,7 @@ bash
     ├── books_dict.pkl                   # Preprocessed data (generated)
     ├── tfidf_matrix.pkl                 # TF-IDF matrix (generated)
     └── README.md                        # This file
-
+```
 🚀 Quick Start
 
     Option 1: Use Pre-built Dataset (Recommended for Most Users)
@@ -94,16 +95,16 @@ bash
 
     Run the preprocessing notebook
 
-bash
+```bash
     jupyter notebook Books_recommendation_model.ipynb
-
+```
 Load data from books_dataset.csv instead of scraping
 Generate the required pickle files
 Launch the application
 
-bash
+```bash
     streamlit run app.py
-
+```
 Option 2: Web Scraping (For Advanced Users with 24+ GB RAM)
 Only choose this if you:
 
@@ -121,17 +122,18 @@ Verify system meets memory requirements
 
 Run the scraper (Optional - takes several hours)
 
-bash
+```bash
     python data_scraper.py
-Process the scraped data
+    # Process the scraped data
+```
 
-bash
+```bash
     jupyter notebook Books_recommendation_model.ipynb
-Launch the application
-
-bash
+    # Launch the application
+```
+```bash
     streamlit run app.py
-
+```
 📊 Dataset Information
     Pre-built Dataset (books_dataset.csv)
     Size: Optimized subset of books
