@@ -258,3 +258,6 @@ Choose Web Scraping If:
     You want to customize the dataset
 
     You have time for longer setup
+
+📝 License
+    This project is open source. Please ensure compliance with Goodreads' terms of service when scraping data.
